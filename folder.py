@@ -1,9 +1,9 @@
 #!/usr/bin/python
 import os
-base = '/home/opc/'
+base = '/home/vagrant/'
 base_count = 1 - base.count('/')
 new_path = base
-k = open('/home/opc/vandana/inputdirname.json')
+k = open('inputdirname.json')
 cc = 0
 oc = 0
 line_no = 1
